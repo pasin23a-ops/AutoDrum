@@ -73,4 +73,4 @@ class MainActivity : AppCompatActivity() {
             }
             val prefs = getSharedPreferences(Prefs.NAME, Context.MODE_PRIVATE)
             if (!prefs.getBoolean(Prefs.CALIBRATED, false)) {
-                Toast.makeText(this, "กรุณาตั้งค่าตำแหน่งเลนก่อน (ขั้นตอนที่ 3)", Toast.LENGTH_SHORT).show
+                Toast.makeText(this, "กรุณาตั้งค่าตำแหน่งเลนก่อน (ขั้นตอนที่ 3)", Toast.LENGTH_SHORT).show()
