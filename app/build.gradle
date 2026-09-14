@@ -1,4 +1,4 @@
-plugins {
+isMinifyEnabled {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
@@ -17,7 +17,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            minifyEnabled false
         }
     }
     compileOptions {
